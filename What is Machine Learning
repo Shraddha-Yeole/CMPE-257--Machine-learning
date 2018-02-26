@@ -1,0 +1,75 @@
+1.	** What is Machine Learning? **
+Use algorithms to learn iteratively from data.
+Develops algorithm for making predictions (statistical sense) from data.
+Statistics develops models (methods) that explain the data.
+
+** Applications include: **
+Spam detection
+Face recognition
+Disease detection
+
+To predict the disease: Model 
+To train the model we need data.
+Data preparation:
+
+80% data: Used for training 
+20% data: Evaluation: Test dataset
+
+explain examples:
+Machine learning is the training of a model from data that generalizes decision against a performance measure. 
+
+Training: need data/examples
+Model: Developed by experience
+Generalizes: Extend the decision to unseen instances
+Performance: Quality of the needed result. 
+
+
+** 3 parts:**
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+
+I.	Supervised Learning:
+Take labelled dataset. Collect information from data so that you can label new data sets.
+Function approximation.
+Given input and output: 
+(1,1), (2,4), (3,9), (4,16) 
+(10, ?)
+so, it turns out function is X^2.
+
+Induction: Function with given data and we can generalization.
+
+All machine learning is supposed to Induction. Specifics to generalization. 
+             Approximate function induction.
+
+II.	Unsupervised Learning:
+
+In this algorithm, we do not have any target or outcome variable to predict / estimate.  It is used for clustering population in different groups, which is widely used for segmenting customers in different groups for specific intervention.
+
+Given input:
+Derive relationship between input themselves.
+
+Description: Concise Summarization
+Taking set of data and figure out how to divide it up one way or other. 
+
+Example:
+Crowd of people
+How to divide them?
+They have wear tees, type of hair, ethnicity, male, female etc. 
+You can give summarization based on learning. 
+
+Unsupervised learning could be helpful in supervised learning.
+Summarization can help to do function approximation. 
+
+Instead of taking labels as male and female, just take the parameters like how much hair do you have, relative height and weight. 
+
+III.	Reinforcement Learning
+
+It works this way: the machine is exposed to an environment where it trains itself continually using trial and error. This machine learns from past experience and tries to capture the best possible knowledge to make accurate business decisions.
+
+Learning from delayed reward.
+Feedback in reinforcement learning comes several steps after decision has been made.
+Roll back in mind and figure out what went wrong.
+
+ It allows machines and software agents to automatically determine the ideal behavior within a specific context, to maximize its performance.
+Example: Tic-tac-toe game:
